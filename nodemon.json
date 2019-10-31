@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ext": "js, jsx, scss, css",
+  "ignore": ["*.test.*"],
+  "delay": "5",
+  "exec": "npm-run-all format lint build"
+}
