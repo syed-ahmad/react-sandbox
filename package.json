@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/syed-ahmad/react-sandbox/issues"
   },
-  "homepage": "https://github.com/syed-ahmad/react-sandbox#readme"
+  "homepage": "https://github.com/syed-ahmad/react-sandbox#readme",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2"
+  }
 }
