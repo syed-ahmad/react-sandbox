@@ -1,0 +1,26 @@
+{
+  "name": "react-sandbox",
+  "version": "1.0.0",
+  "description": "A place to experiment with React et al",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests yet' exit(0)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syed-ahmad/react-sandbox.git"
+  },
+  "keywords": [
+    "react",
+    "playground",
+    "experiment",
+    "sandbox",
+    "react-sandbox"
+  ],
+  "author": "Syed Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syed-ahmad/react-sandbox/issues"
+  },
+  "homepage": "https://github.com/syed-ahmad/react-sandbox#readme"
+}
