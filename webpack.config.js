@@ -1,11 +1,12 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'sandbox-bundle.js',
+    filename: '[name].bundle.js',
     publicPath: '/'
   },
   module: {
@@ -43,11 +44,15 @@ module.exports = {
     ]
   },
   devServer: {
+    contentBase: './dist',
+    open: true,
     historyApiFallback: true
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
-    })
+      template: path.resolve(__dirname, 'src', 'index.html'),
+      filename: './index.html'
+    }),
+    new CleanWebpackPlugin()
   ]
 };
