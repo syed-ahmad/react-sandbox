@@ -1,7 +1,8 @@
 import React from 'react';
+import { HomePage } from './views';
 
 const App = () => {
-  return <h2>Welcome to React Sandbox</h2>;
+  return <HomePage />;
 };
 
 export default App;
